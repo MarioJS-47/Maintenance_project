@@ -1,0 +1,73 @@
+header {
+    background: linear-gradient(rgb(36, 35, 35),rgb(46, 45, 45));
+    margin: 7px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.headp1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.headp2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.headp2 p {
+    font-size: 12px;
+    margin-top: 5px;
+} 
+
+.logo1 {
+    height: 50px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: 'Segoe UI';
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.process {
+    background-color: gray;
+    display: inline-block ;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.process p {
+    font-size: 12px;
+}
+
+footer {
+    background: linear-gradient(rgb(36, 35, 35),rgb(46, 45, 45));
+    margin: 7px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+}
