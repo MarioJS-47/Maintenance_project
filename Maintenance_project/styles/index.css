@@ -2,7 +2,7 @@ header {
     background: linear-gradient(rgb(36, 35, 35),rgb(46, 45, 45));
     margin: 7px;
     border-radius: 10px;
-    width: 100%;
+    width: auto;
     padding: 20px;
 }
 
@@ -46,28 +46,32 @@ h2 {
     margin: auto;
     width: 100%;
     text-align: center;
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .process {
     background-color: gray;
     display: inline-block ;
-    padding: 20px;
+    padding: 100px 20px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 15%;
+    margin: 30px;
 }
 
 .process p {
     font-size: 12px;
+    margin-top: 5px;
 }
 
 footer {
     background: linear-gradient(rgb(36, 35, 35),rgb(46, 45, 45));
     margin: 7px;
     border-radius: 10px;
-    width: 100%;
+    width: auto;
     padding: 20px;
     text-align: center;
     font-size: 10px;
-    position: absolute;
-    bottom: 0;
 }
