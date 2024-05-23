@@ -35,35 +35,50 @@ body {
     background-color: black;
     color:white;
     font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .list1 {
     margin: auto;
-    width: 100%;
-    text-align: center;
-    width: 90%;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
 }
 
 .process {
-    background-color: gray;
-    display: inline-block ;
+    background: linear-gradient(rgb(36, 35, 35),rgb(46, 45, 45));
+    display: inline-block;
     padding: 100px 20px;
-    box-sizing: border-box;
     border-radius: 10px;
-    width: 15%;
     margin: 30px;
+    width: 25%;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+}
+
+.process:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background: linear-gradient(rgb(0, 174, 255),rgb(0, 119, 255));
+    p {
+        color: white;
+    }
 }
 
 .process p {
     font-size: 12px;
     margin-top: 5px;
+    color: rgb(158, 154, 154);
+    
 }
 
 footer {
@@ -74,4 +89,5 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 10px;
+    margin-top: auto;
 }
