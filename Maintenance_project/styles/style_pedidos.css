@@ -6,19 +6,19 @@ header {
     padding: 20px;
 }
 
-.headp1 {
+.header_section1 {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
 }
 
-.headp2 {
+.header_section2 {
     display: inline-block;
     vertical-align: middle;
     margin-left: 10px;
 }
 
-.headp2 p {
+.header_section2 p {
     font-size: 12px;
     margin-top: 5px;
 } 
@@ -40,7 +40,17 @@ body {
     min-height: 100vh;
 }
 
-.data {
+.table_p {
+    text-align: center;
+    margin: 40px 5%;
+    width: 90%;
+}
+
+.table_p tr {
+    background-color: rgb(34, 36, 36);
+}
+
+.table_p_header {
     border: 1px solid white;
     font-size: 10px;
     font-weight: bold;
@@ -57,3 +67,4 @@ footer {
     font-size: 10px;
     margin-top: auto;
 }
+
