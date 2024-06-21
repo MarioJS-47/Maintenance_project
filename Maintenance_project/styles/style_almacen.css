@@ -39,3 +39,42 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.rack_1 {
+    margin: auto;
+    width: 90%;
+}
+
+.column_1 {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.column_2 {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.column_3 {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.location {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 5px;
+}
+
+.location h2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.location p {
+    font-size: 12px;
+}
